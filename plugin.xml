@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="fr.pierrickrouxel.cordova.plugin.iCloudKV"
-      version="0.3.0">
+           id="cordova-plugin-icloudkv"
+      version="0.4.0">
 
     <name>iCloudKV</name>
     <description>Cordova iCloud Key Value Plugin</description>
-    <author>Pierrick Rouxel</author>
-    <license>Apache 2.0</license>
+    <author>Alex Drel</author>
+    <license>MIT</license>
     <keywords>cordova,icloud,ios</keywords>
-    <repo>https://github.com/pierrickrouxel/phonegap-icloudkv-plugin</repo>
+    <repo>https://github.com/alexdrel/cordova-plugin-icloudkv.git</repo>
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />

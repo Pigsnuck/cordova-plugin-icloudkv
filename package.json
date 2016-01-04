@@ -1,16 +1,16 @@
 {
-  "name": "phonegap-icloudkv-plugin",
-  "version": "0.3.0",
+  "name": "cordova-plugin-icloudkv",
+  "version": "0.4.0",
   "description": "Cordova iCloud Key Value Plugin",
   "cordova": {
-    "id": "fr.pierrickrouxel.cordova.plugin.iCloudKV",
+    "id": "cordova-plugin-icloudkv",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pierrickrouxel/phonegap-icloudkv-plugin.git"
+    "url": "https://github.com/alexdrel/cordova-plugin-icloudkv.git"
   },
   "keywords": [
     "cordova",
@@ -25,10 +25,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "Pierrick Rouxel",
-  "license": "Apache 2.0",
+  "author": "Alex Drel",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pierrickrouxel/phonegap-icloudkv-plugin/issues"
+    "url": "https://github.com/alexdrel/cordova-plugin-icloudkv/issues"
   },
-  "homepage": "https://github.com/pierrickrouxel/phonegap-icloudkv-plugin"
+  "homepage": "https://github.com/alexdrel/cordova-plugin-icloudkv"
 }
