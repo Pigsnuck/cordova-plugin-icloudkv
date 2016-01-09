@@ -112,7 +112,7 @@
 
             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:changedKeys options:NSJSONWritingPrettyPrinted error:nil];
             NSString *jsStatement = [NSString stringWithFormat:@"iCloudKV.didChanged(%@);", [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding]];
-            [self writeJavascript:jsStatement];
+            [self.commandDelegate evalJs:jsStatement];
             break;
     }
 }

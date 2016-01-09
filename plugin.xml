@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="cordova-plugin-icloudkv"
-      version="0.4.0">
+      version="0.4.1">
 
     <name>iCloudKV</name>
     <description>Cordova iCloud Key Value Plugin</description>
